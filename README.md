@@ -13,4 +13,6 @@ Execute a aplicação principal
 python app.py
 ```
 
-A partir daí já é possível acessar sua aplicação no endereço http://localhost:5000
+A partir daí já é possível acessar sua aplicação no endereço http://localhost:5000/olx .
+
+Clicar no "Utilizar 2ª Mão Point" para iniciar a experiência. 
