@@ -1,0 +1,74 @@
+<html>
+
+<head>
+    <title>Nova Conta</title>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="static/css/novaConta.css">
+</head>
+
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            <!-- Tabs Titles -->
+
+            <!-- Icon -->
+            <div class="fadeIn first">
+                <img src="static/img/carrefour_img.png" id="icon" alt="User Icon" height="100" />
+            </div>
+
+            <!-- Login Form -->
+            <form style="margin-top: 10px">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <text class="offset-md-2 col-2">Nome: </text>
+                        <input type="text" id="nome" class="col-6 fadeIn second" name="login" placeholder="Nome">
+                    </div>
+
+                    <div class="row align-items-center">
+                        <text class="offset-md-2 col-2">Senha: </text>
+                        <input type="password" id="senha" class="col-6 fadeIn second" name="login" placeholder="Senha">
+                    </div>
+
+                    <div class="row align-items-center">
+                        <text class="col-4">Confirmar senha: </text>
+                        <input type="password" id="confirmarSenha" class="col-6 fadeIn second" name="login" placeholder="Senha">
+                    </div>
+
+                    <div class="row align-items-center">
+                        <text class="offset-md-2 col-2">CPF: </text>
+                        <input type="text" id="cpf" class="col-6 fadeIn third" name="login" placeholder="CPF">
+                    </div>
+
+                    <div class="row align-items-center">
+                        <text class="offset-md-2 col-2">Telefone: </text>
+                        <input type="text" id="telefone" class="col-6 fadeIn third" name="login" placeholder="Telefone">
+                    </div>
+
+                    <div class="row align-items-center">
+                        <text class="offset-md-2 col-2">Nascimento: </text>
+                        <input type="text" id="nascimento" class="col-6 fadeIn third" name="login" placeholder="Nascimento">
+                    </div>
+
+                    <div class="row align-items-center">
+                        <text class="offset-md-2 col-2">E-mail: </text>
+                        <input type="text" id="email" class="col-6 fadeIn third" name="login" placeholder="E-mail">
+                    </div>
+
+                </div>
+            </form>
+
+            <!-- Remind Passowrd -->
+            <div id="formFooter">
+                <input type="submit" class="fadeIn fourth" value="Cadastrar" onclick="location.href='/validar-email';">
+            </div>
+
+        </div>
+    </div>
+</body>
+<footer>
+
+</footer>
+
+</html>

@@ -1,0 +1,91 @@
+<html>
+
+<head>
+    <title>Home</title>
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="static/css/agendamento.css">
+    <script src="static/js/agendamento.js"></script>
+    <script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css" />
+
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent" style="padding: 30px;">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-md-12 align-items-center" style="margin: -20px 0px 20px 0px">
+                        <img src="static/img/person-circle.svg" id="icon" alt="User Icon" height="50px" />
+                        <h2>Olá, João!</h2>
+                    </div>
+                </div>
+
+                <div class="row align-items-center" style="margin-top: 10px">
+                    <text class="col-5" style="text-align: left;">Unidade carrefour: </text>
+                    <select id="selectUnidade" class="col-6" style="height: 35px; border: none; background-color: #f6f6f6;">
+                        <option>Escolha uma unidade...</option>
+                        <option
+                            value="Carrefour Hipermercado Jabaquara - Av. Eng. George Corbisier, 273 - Jabaquara, São Paulo - SP, 04345-000">
+                            Carrefour Jabaquara</option>
+                        <option
+                            value="Carrefour Hipermercado São Caetano do Sul - R. Aquidaban, s/n - Fundação, São Caetano do Sul - SP, 09520-180">
+                            Carrefour São Caetano do Sul</option>
+                        <option
+                            value="Carrefour Hipermercado Cambuci - Praça Albert    o Lion, 100 - Cambuci, São Paulo - SP, 01515-000">
+                            Carrefour Cambuci</option>
+                        <option
+                            value="Carrefour Hipermercado Brooklin -  Av. Santo Amaro, 4815 - Brooklin, São Paulo - SP, 04701-000">
+                            Carrefour Brooklin</option>
+                        <option
+                            value="Carrefour Hipermercado Shopping Interlagos - Av. Interlagos, 2501 - Jardim Consorcio, São Paulo - SP, 04661-902">
+                            Carrefour Shopping Interlagos</option>
+                        <option
+                            value="Carrefour Hipermercado Limão - Av. Otaviano Alves de Lima, 1824 - Limão, São Paulo - SP, 02701-000">
+                            Carrefour Limão</option>
+                        <option
+                            value="Carrefour Hipermercado Penha - Av. Amador Bueno da Veiga, 2521 - Penha de França, São Paulo - SP, 03653-000">
+                            Carrefour Penha</option>
+                    </select>
+                    <span id="spanUnidade" style="margin-top: 20px; color: lightslategray"></span>
+                </div>
+
+                
+                <div class="row form-group" style="margin-top: 40px">
+                    <label class="control-label col-3" style="text-align: left;"for="date">Calendário:</label>
+                    <input class="form-control col-3" id="date" name="date" placeholder="DD/MM/YYYY" type="text" />
+                </div>
+
+                <div class="row align-items-center" style="margin-top: 50px">
+                    <text class="col-5" style="text-align: left;">Horários disponíveis: </text>
+                    <select class="col-6" style="height: 35px; border: none; background-color: #f6f6f6;">
+                        <option>Escolha um horário...</option>
+                        <option>10:00 às 10:30</option>
+                        <option>10:30 às 11:00</option>
+                        <option>11:00 às 11:30</option>
+                        <option>14:00 às 14:30</option>
+                        <option>15:30 às 16:00</option>
+                    </select>
+                </div>
+
+                <div class="row align-items-center" style="margin-top: 40px">
+                    <text class="col-12" style="text-align: left;">E-mail do parceiro de negociação: </text>
+                    <input type="text" id="nome" class="col-12 fadeIn second" name="login" placeholder="E-mail">
+                </div>
+
+                <div class="row align-items-center" style="margin-top: 30px">
+                    <button class="offset-md-3 col-6" type="button" onclick="location.href='/final'">
+                        <img src="static/img/calendar-check.svg" id="icon" alt="User Icon" height="20px"
+                            style="float:left" />
+                        Agendar
+                    </button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

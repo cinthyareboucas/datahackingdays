@@ -1,0 +1,39 @@
+<html>
+
+<head>
+    <title>Home</title>
+    <link href="static/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="static/css/home.css">
+
+<body>
+    <div class="wrapper fadeInDown">
+        <div id="formContent">
+            <!-- Tabs Titles -->
+
+            <!-- Icon -->
+            <div class="fadeIn first">
+                <img src="static/img/carrefour_img.png" id="icon" alt="User Icon" height="100"/>
+            </div>
+
+            <!-- Login Form -->
+            <form>
+                <input type="text" id="login" class="fadeIn second" name="login" placeholder="E-mail">
+                <input type="password" id="password" class="fadeIn third" name="login" placeholder="Senha">
+                <input type="button" class="fadeIn fourth" value="Log In" onclick="location.href='/app-home';">
+            </form>
+
+            <!-- Remind Passowrd -->
+            <div id="formFooter">
+                <a class="underlineHover" href="#">Esqueci minha senha?</a>
+                </br>
+                </br>
+                <a class="underlineHover" href="/nova-conta">Criar nova conta</a>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
