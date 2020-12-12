@@ -1,4 +1,4 @@
-# Data Hacking Days 
+# hacka-front
 
 Repositório dedicado para desenvolvimento do protótipo de front da solução 2ª mão point para o Data Hacking Days do Carrefour.
 

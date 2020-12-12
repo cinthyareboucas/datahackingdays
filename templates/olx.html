@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>OLX</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<style>
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background:url("../static/img/OLX.png");
+  /* background:url("C:\Users\nicol\Documents\cin\hacka-front\static\img\OLX.png") bgproperties="fixed"; */
+  height:1300px;
+}
+
+}
+
+header {
+  background-color: #2E2E2E;
+  padding: 8px;
+  text-align: left;
+  font-size: 20px;
+  color: white;
+  bgproperties: fixed;
+  background-size: cover;
+}
+
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+  position: fixed;
+  bottom:0;
+  left:0;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 200px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+</style>
+
+</head>
+<body background = "img/OLX.png">
+    <hr>
+    <p></p><p></p><p></p>
+<br>
+        <p></p><p></p><p></p>
+<hr>
+    <a href="{{ url_for('home')}}" style="color:white"><button class="button button1" style="margin-top: 500px; margin-left: 730px; margin-right: 15px; border-radius: 20px;border-color: #f78323;width:200px;height:40px;background-color:#f78323;color: #ffffff;font-size: 13.333px;font:Arial;text-transform: none"><div class="tooltip">Utilizar 2a Mao Point
+  <span class="tooltiptext">2ª Mão Point: uma forma mais segura de buscar sua encomenda, em um ambiente Carrefour!</span>
+</div>
+  </button></b></a>
+  
+<p> </p>
+</body>
+</html>

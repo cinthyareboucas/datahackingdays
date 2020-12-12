@@ -25,5 +25,10 @@ def validarEmail():
 def final():
    return render_template('final.html')
 
+@app.route('/olx')
+def olx():
+   return render_template('olx.html')
+
+
 if __name__ == '__main__':
    app.run(debug=True,host='0.0.0.0',port=5000)
